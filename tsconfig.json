@@ -16,8 +16,10 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
     "paths": {
-      "@services/*": ["./services/*"]
+      "@services/*": ["./services/*"],
+      "@schemas/*": ["./schemas/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "tests"]
 }
